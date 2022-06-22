@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lexend+Deca:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.car-list{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.car-list-item{
+    width: 307px;
+    padding: 50px;
+    background: #E28625;
+    border-radius: 8px;
+}
+
+.car-list-item:last-child{
+    margin-right: 0px;
+}
+
+.item-suvs{
+    background-color:#006971;
+}
+
+.item-luxury{
+    background-color:#004140;
+}
+
+.car-img{
+    margin-bottom: 35px;
+}
+
+.car-list-title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.car-list-text{
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+    margin-bottom: 83px;
+}
+
+.link-wrapper{
+    margin-top: 83px;
+}
+
+.car-list-item-link{
+    display: inline-block;
+    font-family: "Lexend Deca";
+    padding: 12px 31px;
+    background-color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #E28625;
+}
+
+
+
+.link-sedans:hover{
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    color: #fff;
+}
+
+.link-suvs{
+    color: #006971;
+}
+
+.link-suvs:hover{
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    color: #fff;
+}
+
+.link-luxury{
+    color: #004140;
+}
+
+.link-luxury:hover{
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    color: #fff;
+}

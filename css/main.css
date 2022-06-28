@@ -1,5 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500&family=Lexend+Deca:wght@300&display=swap');
+@font-face {
+    font-family: "Big Shoulders Display";
+    src: url("../fonts/big-shoulders-display-v13-latin-regular.woff"),
+         url("../fonts/big-shoulders-display-v13-latin-regular.woff2");
+         font-weight: 400;
+         font-display: swap;
+}
+
+@font-face {
+    font-family: "Big Shoulders Display";
+    src: url("../fonts/big-shoulders-display-v13-latin-700.woff"),
+         url("../fonts/big-shoulders-display-v13-latin-700.woff2");
+         font-weight: 700;
+         font-display: swap;
+}
+
+@font-face {
+    font-family: "Lexend Deca";
+    src: url("../fonts/lexend-deca-v16-latin-regular.woff"),
+         url("../fonts/lexend-deca-v16-latin-regular.woff2");
+         font-weight: 400;
+         font-display: swap;
+}
+
 
 *{
     box-sizing: border-box;
@@ -42,7 +64,7 @@ body{
 }
 
 .car-list-title{
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display';
     font-size: 40px;
     margin: 0;
     margin-bottom: 25px;
@@ -67,6 +89,7 @@ body{
     font-family: "Lexend Deca";
     padding: 12px 31px;
     background-color: #fff;
+    border: 1.5px solid transparent;
     border-radius: 25px;
     text-decoration: none;
     color: #E28625;
